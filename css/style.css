@@ -217,4 +217,44 @@ body{
     opacity: 0.6;
 }
 
+/* CTA Section */
+.cta {
+    background-color: var(--bg-color-2);
+}
+.cta__container {
+    min-height: 253px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cta__heading {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(43.2 / 36 * 100%);
+    color: var(--main-text-white);
+    margin: 0px 0px 40px 0px;
+}
+.cta__btns {
+}
+.cta__btn {
+    background-color: transparent;
+    border-color: var(--main-text-white);
+    color: var(--main-text-white);
+}
+.cta__btn:hover{
+    background-color: var(--btn-bg-color);
+    border-color: var(--btn-bg-color);
+    color: var(--main-text-white);
+}
+.cta__btn:active{
+    background-color: var(--btn-bg-color);
+    color: var(--main-text-white);
+    border-color: var(--btn-bg-color);
+    opacity: 0.6;
+}
+.cta__btn:not(:last-child){
+    margin: 0px 40px 0px 0px;
+}
+
 /* MEDIA QUERY 2560px 1440px 1024px 768px 425px 375px 320px*/
