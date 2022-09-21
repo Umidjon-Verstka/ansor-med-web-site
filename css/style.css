@@ -156,6 +156,7 @@ body{
 .hero__box-img {
 }
 .hero__img {
+    transform: translateY(2px);
 }
 /* SERVICES SECTION */
 .services {
@@ -260,4 +261,22 @@ body{
     margin: 0px 40px 0px 0px;
 }
 
+
+/* FOOTER SECTION */
+.footer {
+    background-color: var(--main-text-color-2);
+}
+.footer__container {
+    min-height: 98px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--main-text-white);
+}
+.footer__logo {
+    color: var(--main-text-white);
+}
+.footer_link {
+    color: var(--main-text-white);
+}
 /* MEDIA QUERY 2560px 1440px 1024px 768px 425px 375px 320px*/
