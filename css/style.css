@@ -19,6 +19,20 @@
     padding: 0 15px;
     margin: 0 auto;
 }
+.btn {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: calc(22 / 15 * 100%);
+    letter-spacing: 2px;
+    color: var(--main-text-white);
+    text-decoration: none;
+    background-color: var(--btn-bg-color);
+    border-radius: 8px;
+    padding: 12px 24px;
+    border: 2px solid var(--btn-bg-color);
+    transition: all 0.3s ease-in-out;
+}
 html,
 body{
     background-color: var(--bg-color);
@@ -29,6 +43,77 @@ body{
     line-height: 1;
 }
 /* ---SECTIONS---------------------------------------------- */
+
+/* HEADER SECTION */
+.header {
+   background-color: var(--header-color);
+}
+.header__container {
+    max-height: 50px;
+    padding: 24px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--main-text-color-2);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: calc(32 / 24 * 100%);
+    transition: all 0.2s ease-in-out;
+}
+.header__logo:hover{
+    color: var(--btn-bg-color);
+}
+.header__logo:active{
+    opacity: 0.7;
+}
+.header__logo-text {
+    margin: 0px 0px 0px 16px;
+}
+.nav {
+}
+.nav__list {
+    display: flex;
+    align-items: center;
+}
+.nav__item {
+}
+.nav__item:not(:last-child){
+    margin: 0px 32px 0px 0px;
+}
+.nav__link {
+    text-decoration: none;
+    color: var(--main-text-color-2);
+    font-size: 14px;
+    line-height: calc(21 / 14 * 100%);
+    letter-spacing: 2px;
+    transition: all 0.2s ease-in-out;
+}
+.nav__link:hover{
+    color: var(--btn-bg-color);
+}
+.nav__link:active{
+    color: var(--btn-bg-color);
+    opacity: 0.7;
+}
+.header__btn {
+    
+}
+.header__btn:hover{
+    background-color: transparent;
+    color: var(--btn-bg-color);
+    border-color: var(--btn-bg-color);
+}
+.header__btn:active{
+    background-color: var(--btn-bg-color);
+    color: var(--main-text-white);
+    border-color: var(--btn-bg-color);
+    opacity: 0.7;
+}
 
 
 /* MEDIA QUERY 2560px 1440px 1024px 768px 425px 375px 320px*/
