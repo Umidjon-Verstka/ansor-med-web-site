@@ -2,9 +2,14 @@
 :root{
     /* --name: value */
     --bg-color: #fff;
-    --color-1: #fafafa;
-    --main-text-color: #000;
-    --main-font-family: "Montserrat", sans-serif;
+    --bg-color-2: #0EB4C1;
+    --btn-bg-color: #DE2E54;
+    --header-color: #E5E5E5;
+    --main-text-color: #444;
+    --main-text-color-2: #222;
+    --main-text-black: #000;
+    --main-text-white: #fff;
+    --main-font-family: "Open Sans", sans-serif;
     --main-font-weight: 400;
     --main-font-size: 16px;
 }
@@ -14,6 +19,16 @@
     padding: 0 15px;
     margin: 0 auto;
 }
+html,
+body{
+    background-color: var(--bg-color);
+    font-family: var(--main-font-family);
+    font-size: var(--main-font-size);
+    font-weight: var(--main-font-weight);
+    color: var(--main-text-color);
+    line-height: 1;
+}
 /* ---SECTIONS---------------------------------------------- */
+
 
 /* MEDIA QUERY 2560px 1440px 1024px 768px 425px 375px 320px*/
