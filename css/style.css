@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Open Sans Condensed";
+    src: url(../fonts/OpenSans_Condensed-Bold.ttf);
+    font-weight: 700;
+  }
 /* ---VARIABLES---------------------------------------------- */
 :root{
     /* --name: value */
@@ -21,6 +26,7 @@
 }
 .btn {
     display: inline-block;
+    font-family: "Open Sans Condensed";
     font-weight: 700;
     font-size: 15px;
     line-height: calc(22 / 15 * 100%);
@@ -75,13 +81,9 @@ body{
 .header__logo-text {
     margin: 0px 0px 0px 16px;
 }
-.nav {
-}
 .nav__list {
     display: flex;
     align-items: center;
-}
-.nav__item {
 }
 .nav__item:not(:last-child){
     margin: 0px 32px 0px 0px;
@@ -101,9 +103,6 @@ body{
     color: var(--btn-bg-color);
     opacity: 0.7;
 }
-.header__btn {
-    
-}
 .header__btn:hover{
     background-color: transparent;
     color: var(--btn-bg-color);
@@ -121,17 +120,14 @@ body{
     background-color: var(--bg-color-2);
     min-height: 533px;
 }
-.hero__container {
-}
 .hero__row {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 27px 0px 0px 0px;
 }
-.hero__column {
-}
 .hero__title {
+    font-family: "Open Sans Condensed";
     font-weight: 700;
     font-size: 36px;
     line-height: calc(43 / 36 * 100%);
@@ -145,15 +141,11 @@ body{
     color: var(--main-text-white);
     margin: 0px 0px 48px 0px;
 }
-.hero__btn {
-}
 .hero__btn:hover{
     opacity: 0.8;
 }
 .hero__btn:active{
     opacity: 0.6;
-}
-.hero__box-img {
 }
 .hero__img {
     transform: translateY(2px);
@@ -164,9 +156,8 @@ body{
     display: flex;
     align-items: center;
 }
-.services__container {
-}
 .services__heading {
+    font-family: "Open Sans Condensed";
     font-weight: 700;
     font-size: 36px;
     line-height: calc(43 / 36 * 100%);
@@ -192,9 +183,8 @@ body{
     margin: 0px 64px 0px 0px;
     box-shadow: 0px 12px 24px -8px rgba(0, 107, 116, 0.3);
 }
-.services__info {
-}
 .services__info-title {
+    font-family: "Open Sans Condensed";
     font-weight: 700;
     font-size: 24px;
     line-height: calc(28.8 / 24 * 100%);
@@ -206,8 +196,6 @@ body{
 }
 .services__box-btn{
     text-align: center;
-}
-.services__btn {
 }
 .services__btn:hover{
     background-color: transparent;
@@ -233,13 +221,12 @@ body{
     justify-content: center;
 }
 .cta__heading {
+    font-family: "Open Sans Condensed";
     font-weight: 700;
     font-size: 36px;
     line-height: calc(43.2 / 36 * 100%);
     color: var(--main-text-white);
     margin: 0px 0px 40px 0px;
-}
-.cta__btns {
 }
 .cta__btn {
     background-color: transparent;
