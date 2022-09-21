@@ -357,7 +357,7 @@ body{
 .footer__logo {
     color: var(--main-text-white);
 }
-.footer_link {
+.footer__link {
     color: var(--main-text-white);
 }
 @media (max-width: 768px) {
